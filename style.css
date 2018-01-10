@@ -1,0 +1,62 @@
+.header
+{ 
+	position: right;
+	margin-left: 1150px;
+	
+
+}
+
+.barh li
+{
+	display: inline; 
+	margin-left:-10px;
+padding: 0px 7px;
+}
+
+.main
+{
+	margin-left:600px;
+	margin-top:100px;
+}
+
+.barb li
+{
+display: inline;
+position: right;
+text-align: justify;
+}
+.footer li
+{
+	display: inline;
+}
+
+.icone
+{
+	height: 24px;
+	width: 24px;
+}
+.champ
+{
+	height: 44px;
+	width: 350px;
+}
+.img
+{
+	margin-left: 39px; 
+}
+.barb{
+	margin-left: 35px;
+}
+.footermain{
+	margin-left: 90px;
+
+}
+.body{
+	height: 600px;
+	width: 1440px;
+}
+.navbarl
+{
+	display: absolute;
+	bottom: 0px;
+}
