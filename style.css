@@ -42,13 +42,14 @@ text-align: justify;
 }
 .img
 {
-	margin-left: 39px; 
+	margin-left: 43px; 
 }
 .barb{
-	margin-left: 35px;
+	margin-left: 20px;
 }
 .footermain{
-	margin-left: 90px;
+    text-decoration: none;
+	margin-left:75px;
 
 }
 .body{
@@ -64,7 +65,7 @@ text-align: justify;
     position: absolute;
     bottom:0px;
 }*/
-.bot{
+/*.bot{
     display: flex;    
     justify-content: space-between;
 }
@@ -76,5 +77,54 @@ width: 100%;
     bottom:0px;
 }
 .R{
-width: 100%
+display: absolute;
+bottom:0px;
+}
+.R li{
+display:flex;
+display: inline;
+}
+.c{
+    
+}
+.footmain{
+    margin-left:35px;
+}*/
+F{
+    bottom: 0px;
+    float: left;
+	display: inline-flex;
+	font-size: 15px;
+    left:15px;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: none;
+	color: 000;
+ }
+
+ .navbar-nav {
+	float: left;
+	display: inline-flex;
+	font-size: 15px;
+}
+
+.navbar-nav a {
+	color: none;
+	margin: 15px
+}
+
+.navbar-right {
+    float: right !important;
+	margin: 15px;
+	display: inline-flex;
+	font-size: 15px;
+}
+
+.navbar-right a {
+	color: none;
+	margin: 15px
 }
