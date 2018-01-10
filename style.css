@@ -10,7 +10,7 @@
 {
 	display: inline; 
 	margin-left:-10px;
-padding: 0px 7px;
+    padding: 0px 7px;
 }
 
 .main
@@ -55,8 +55,26 @@ text-align: justify;
 	height: 600px;
 	width: 1440px;
 }
-.navbarl
-{
-	display: absolute;
-	bottom: 0px;
+.footer{
+    margin-top:300px;
+}
+/*.footer{
+    display: flex;
+    display:inline;
+    position: absolute;
+    bottom:0px;
+}*/
+.bot{
+    display: flex;    
+    justify-content: space-between;
+}
+.L{
+width: 100%;
+}
+.L{
+    display:absolute;
+    bottom:0px;
+}
+.R{
+width: 100%
 }
