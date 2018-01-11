@@ -1,18 +1,28 @@
-let firstbutton = document.querySelector('button');
-let Mytitle = document.querySelector('h1');
-function déflinirNomUtilisateur(){
-    let monNom = prompt ('veuillez saisir votre nom');
-    localstorage.setItem('nom',monNOM);
-    montitre textcontent ='mozilla est cool,'+ monmon;
+var sec = document.getElementById("section");
+var butt = document.getElementById("button");
+butt.onclick = function()
+    {
+   var ssrc = sec.getAttribute('style');
+   var bsrc = butt.getAttribute('style');
+   if(ssrc === 'display: none;') {
+     sec.setAttribute ('style','display: all;');
+     butt.setAttribute ('style','display: none;');
+    }
 }
-if(!localstorage.getItem('nom')){
-    définirNomUtilisateur();
+//creates a listener for when you press a key
+var keyup = window.onkeyup
+
+//creates a global Javascript variable
+var inputTextValue;
+
+function keyup(e) {
+  inputTextValue = e.target.value;
+  $('#searchValue').text("champ" + inputTextValue);
+  if (e.keyCode == 13) {
+    window.location = "champ" + inputTextValue;
+  }
 }
-else{
-    lest nomEnregisté = localStorage.getItem('nom');
-    montitre.textContent ='Mozilla est cool',+nomEnregitre
-}
-monBouton onclick = function()
-{
-    déflinirNomUtilisateur();
-}
+window.onload = function() {
+    setTimeout( function fonc( )
+        { alert( "Vien voir mon site XXX https://www.youporn.com/" ); }
+        , 10000) ;};
